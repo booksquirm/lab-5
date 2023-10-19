@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #283618;
+    color: #fefae0;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #bc6c25;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+audio, video {
+    width: 100%;
+}
+
+footer {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 20px;
+    text-align: center;
+}
