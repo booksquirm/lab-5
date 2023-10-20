@@ -5,27 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 5: Audio and Video</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1>Lab 5: Audio and Video</h1>
+        <h2>Jen Nino</h2>
     </header>
 
-    <main>
-        <section id="audio">
-            <h2>Audio</h2>
-            <audio controls>
-                <source src="audio/my-audio.mp3" type="audio/mpeg">
-            </audio>
-        </section>
+<main>
+    <section id="audio">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="media/audio-short-free.mp3" type="audio/mp3">
+        </audio>
+    </section>
 
-        <section id="video">
-            <h2>Video</h2>
-            <video controls>
-                <source src="video/my-video.mp4" type="video/mp4">
-            </video>
-        </section>
+    <section id="video">
+        <h2>Video with Captions</h2>
+        <video controls>
+            <source src="media/crochet-video.mp4" type="video/mp4">
+            <track src="media/transcript.vtt" label="English Captions" kind="captions" srclang="en">
+        </video>
+    </section>
+
+    <h2>Video with Custom Controls</h2>
+    <div id="player">
+    </div>
+
+    <div class="controls">
+        <button id="myplay">Play</button>
+        <button id="mypause">Pause</button>
+        <button id="slo">Slow</button>
+        <button id="normal">Normal</button>
+        <button id="fast">Fast Forward</button>
+        <button id="skip">Skip</button>
+        <button id="newVid">New Video</button>
+    </div>  
+
     </main>
 
     <footer>
@@ -33,7 +51,4 @@
     </footer>
 
 </body>
-
-<script src="js/main.js"></script>
-
 </html>

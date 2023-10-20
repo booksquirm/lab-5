@@ -6,7 +6,12 @@ body {
 header {
     background-color: #283618;
     color: #fefae0;
-    padding: 20px;
+    padding: 5px;
+}
+
+header h2 {
+    color: #dda15e;
+    text-align: right;
 }
 
 main {
@@ -18,7 +23,7 @@ h2 {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 audio, video {
@@ -28,6 +33,5 @@ audio, video {
 footer {
     background-color: #dda15e;
     color: #283618;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
 }
